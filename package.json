@@ -4,10 +4,9 @@
   "description": "Serve jobs offers",
   "type": "module",
   "scripts": {
-    "start:cron": "node dist/server.js",
-    "start:server": "node dist/app.js",
-    "build:server": "tsc && mkdir -p dist/data && cp src/data/db.json dist/data/db.json",
-    "dev:server": "tsc -w & nodemon dist/app.js"
+    "start": "node dist/app.js",
+    "build": "tsc && mkdir -p dist/data && cp src/data/db.json dist/data/db.json",
+    "dev": "tsc -w & nodemon dist/app.js"
   },
   "keywords": [],
   "author": "Łukasz Zygmunt",

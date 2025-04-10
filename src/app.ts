@@ -75,7 +75,7 @@ Object.keys(database).forEach((collection) => {
 })
 
 app.post('/reload-database', (req: Request, res: Response) => {
-  const SECRET = process.env.CRON_SECRET ?? '';
+  const SECRET = process.env.CRON_SECRET;
   const authHeader = req.headers.authorization || '';
   const token = authHeader.replace('Bearer ', '');
 
