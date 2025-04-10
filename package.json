@@ -1,0 +1,31 @@
+{
+  "name": "jobs-server",
+  "version": "1.0.0",
+  "description": "Serve jobs offers",
+  "type": "module",
+  "scripts": {
+    "start:cron": "node dist/server.js",
+    "start:server": "node dist/app.js",
+    "build:server": "tsc && mkdir -p dist/data && cp src/data/db.json dist/data/db.json",
+    "dev:server": "tsc -w & nodemon dist/app.js"
+  },
+  "keywords": [],
+  "author": "Łukasz Zygmunt",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.3",
+  "dependencies": {
+    "@tinyhttp/app": "^2.5.2",
+    "cors": "^2.8.5",
+    "milliparsec": "^5.0.2",
+    "node-cron": "^3.0.3",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/node": "^22.14.0",
+    "@types/node-cron": "^3.0.11",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.8.3"
+  }
+}
