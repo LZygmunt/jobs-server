@@ -1,11 +1,18 @@
 {
   "version": 2,
-  "buildCommand": "pnpm run build:server",
+  "buildCommand": "pnpm run build",
   "installCommand": "pnpm install",
   "outputDirectory": "dist",
+  "builds": [{
+    "src": "dist/app.js",
+    "use": "@vercel/node",
+    "config": {
+      "includeFiles": ["dist/**"]
+    }
+  }],
   "routes": [
     {
-      "src": "/.*", "dest": "dist/app.js"
+      "src": "/(.*)", "dest": "dist/app.js"
     }
   ],
   "crons": [

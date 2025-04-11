@@ -17,9 +17,6 @@ importers:
       milliparsec:
         specifier: ^5.0.2
         version: 5.0.2
-      node-cron:
-        specifier: ^3.0.3
-        version: 3.0.3
       uuid:
         specifier: ^11.1.0
         version: 11.1.0
@@ -30,9 +27,6 @@ importers:
       '@types/node':
         specifier: ^22.14.0
         version: 22.14.0
-      '@types/node-cron':
-        specifier: ^3.0.11
-        version: 3.0.11
       '@types/uuid':
         specifier: ^10.0.0
         version: 10.0.0
@@ -115,9 +109,6 @@ packages:
 
   '@types/cors@2.8.17':
     resolution: {integrity: sha512-8CGDvrBj1zgo2qE+oS3pOCyYNqCPryMWY2bGfwA0dcfopWGgxs+78df0Rs3rc9THP4JkOhLsAa+15VdpAqkcUA==}
-
-  '@types/node-cron@3.0.11':
-    resolution: {integrity: sha512-0ikrnug3/IyneSHqCBeslAhlK2aBfYek1fGo4bP4QnZPmiqSGRK+Oy7ZMisLWkesffJvQ1cqAcBnJC+8+nxIAg==}
 
   '@types/node@22.14.0':
     resolution: {integrity: sha512-Kmpl+z84ILoG+3T/zQFyAJsU6EPTmOCj8/2+83fSN6djd6I4o7uOuGIH6vq3PrjY5BGitSbFuMN18j3iknubbA==}
@@ -230,10 +221,6 @@ packages:
     resolution: {integrity: sha512-myRT3DiWPHqho5PrJaIRyaMv2kgYf0mUVgBNOYMuCH5Ki1yEiQaf/ZJuQ62nvpc44wL5WDbTX7yGJi1Neevw8w==}
     engines: {node: '>= 0.6'}
 
-  node-cron@3.0.3:
-    resolution: {integrity: sha512-dOal67//nohNgYWb+nWmg5dkFdIwDm8EpeGYMekPMrngV3637lqnX0lbUcCtgibHTz6SEz7DAIjKvKDFYCnO1A==}
-    engines: {node: '>=6.0.0'}
-
   nodemon@3.1.9:
     resolution: {integrity: sha512-hdr1oIb2p6ZSxu3PB2JWWYS7ZQ0qvaZsc3hK8DR8f02kRzc8rjYmxAIvdz+aYC+8F2IjNaB7HMcSDg8nQpJxyg==}
     engines: {node: '>=10'}
@@ -296,10 +283,6 @@ packages:
 
   uuid@11.1.0:
     resolution: {integrity: sha512-0/A9rDy9P7cJ+8w1c9WD9V//9Wj15Ce2MPz8Ri6032usz+NfePxx5AcN3bN+r6ZL6jEo066/yNYB3tn4pQEx+A==}
-    hasBin: true
-
-  uuid@8.3.2:
-    resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
     hasBin: true
 
   vary@1.1.2:
@@ -381,8 +364,6 @@ snapshots:
   '@types/cors@2.8.17':
     dependencies:
       '@types/node': 22.14.0
-
-  '@types/node-cron@3.0.11': {}
 
   '@types/node@22.14.0':
     dependencies:
@@ -478,10 +459,6 @@ snapshots:
 
   negotiator@0.6.4: {}
 
-  node-cron@3.0.3:
-    dependencies:
-      uuid: 8.3.2
-
   nodemon@3.1.9:
     dependencies:
       chokidar: 3.6.0
@@ -532,7 +509,5 @@ snapshots:
   undici-types@6.21.0: {}
 
   uuid@11.1.0: {}
-
-  uuid@8.3.2: {}
 
   vary@1.1.2: {}

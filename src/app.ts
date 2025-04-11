@@ -87,6 +87,17 @@ app.post('/reload-database', (req: Request, res: Response) => {
   res.json({ message: 'Database reloaded successfully' })
 })
 
+app.get('/', (req: Request, res: Response) => {
+  const endpoints = Object.keys(database)
+    .map((endpoint) => `<li><a href="/${endpoint}">${endpoint}</a></li>`)
+    .join('\n')
+  res.send(`
+    <ul>
+      Available endpoints:${endpoints}
+    </ul>
+  `)
+})
+
 app.listen(PORT, () => {
   logger('blue', `Running on port ${PORT}`);
   logger('blue', 'Endpoints:')
