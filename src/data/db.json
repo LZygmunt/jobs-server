@@ -335,6 +335,454 @@
         "contactEmail": "contact@cybercoresystems.com",
         "contactPhone": "555-0124"
       }
+    },
+    {
+      "id": "25",
+      "title": "Game Developer",
+      "type": "Remote",
+      "location": "Boulder, CO",
+      "description": "Join our team as a Game Developer to design and develop interactive, engaging gaming experiences across multiple platforms.",
+      "salary": "$80K - $90K",
+      "company": {
+        "name": "Digital Frontier",
+        "description": "Digital Frontier is a forward-thinking company at the forefront of digital transformation and IT innovation.",
+        "contactEmail": "contact@digitalfrontier.com",
+        "contactPhone": "555-0125"
+      }
+    },
+    {
+      "id": "26",
+      "title": "IoT Solutions Engineer",
+      "type": "Internship",
+      "location": "Raleigh, NC",
+      "description": "We need an IoT Solutions Engineer to develop and integrate smart devices and solutions, driving connectivity in a modern digital world.",
+      "salary": "$100K - $125K",
+      "company": {
+        "name": "TechSphere",
+        "description": "TechSphere is a pioneering tech firm focused on delivering robust IT solutions and cutting-edge software services.",
+        "contactEmail": "contact@techsphere.com",
+        "contactPhone": "555-0126"
+      }
+    },
+    {
+      "id": "27",
+      "title": "Technical Project Manager",
+      "type": "Full-Time",
+      "location": "San Jose, CA",
+      "description": "We are hiring a Technical Project Manager to lead cross-functional teams and ensure timely delivery of innovative IT projects.",
+      "salary": "$100K - $125K",
+      "company": {
+        "name": "Innovision Labs",
+        "description": "Innovision Labs is an innovative company specializing in next-generation IT solutions and digital product development.",
+        "contactEmail": "contact@innovisionlabs.com",
+        "contactPhone": "555-0127"
+      }
+    },
+    {
+      "id": "28",
+      "title": "IT Consultant",
+      "type": "Part-Time",
+      "location": "Las Vegas, NV",
+      "description": "Seeking an experienced IT Consultant to provide strategic advice and technical expertise for optimizing our IT operations.",
+      "salary": "$100K - $125K",
+      "company": {
+        "name": "NetFusion Inc.",
+        "description": "NetFusion Inc. is a dynamic IT firm offering integrated technology solutions and advanced software development services.",
+        "contactEmail": "contact@netfusioninc.com",
+        "contactPhone": "555-0128"
+      }
+    },
+    {
+      "id": "29",
+      "title": "Software Tester",
+      "type": "Contract",
+      "location": "Orlando, FL",
+      "description": "Join our quality assurance team as a Software Tester to design and execute comprehensive test cases for our applications.",
+      "salary": "$60K - $70K",
+      "company": {
+        "name": "BrightByte Technologies",
+        "description": "BrightByte Technologies is a leading technology provider specializing in innovative IT solutions and digital transformation.",
+        "contactEmail": "contact@brightbytetechnologies.com",
+        "contactPhone": "555-0129"
+      }
+    },
+    {
+      "id": "30",
+      "title": "Product Manager",
+      "type": "Remote",
+      "location": "Pittsburgh, PA",
+      "description": "We are looking for a Product Manager to oversee development and launch innovative IT products that meet evolving market demands.",
+      "salary": "$125K - $150K",
+      "company": {
+        "name": "TechPulse Solutions",
+        "description": "TechPulse Solutions is a forward-thinking company dedicated to delivering efficient IT services and modern software solutions.",
+        "contactEmail": "contact@techpulsesolutions.com",
+        "contactPhone": "555-0130"
+      }
+    },
+    {
+      "id": "31",
+      "title": "IT Business Analyst",
+      "type": "Internship",
+      "location": "Baltimore, MD",
+      "description": "Seeking an IT Business Analyst to bridge the gap between technology and business through detailed analysis and strategic planning.",
+      "salary": "$70K - $80K",
+      "company": {
+        "name": "CircuitWorks",
+        "description": "CircuitWorks is a pioneering technology firm specializing in hardware integration and innovative IT solutions.",
+        "contactEmail": "contact@circuitworks.com",
+        "contactPhone": "555-0131"
+      }
+    },
+    {
+      "id": "32",
+      "title": "IT Project Manager",
+      "type": "Full-Time",
+      "location": "St. Louis, MO",
+      "description": "We require an IT Project Manager to coordinate and manage projects from inception through to successful completion.",
+      "salary": "$100K - $125K",
+      "company": {
+        "name": "Synapse Software",
+        "description": "Synapse Software is a cutting-edge software company focused on delivering state-of-the-art IT solutions and digital innovations.",
+        "contactEmail": "contact@synapsesoftware.com",
+        "contactPhone": "555-0132"
+      }
+    },
+    {
+      "id": "33",
+      "title": "Frontend Architect",
+      "type": "Contract",
+      "location": "Detroit, MI",
+      "description": "Join our visionary team as a Frontend Architect to design scalable front-end systems and set best practices for UI development.",
+      "salary": "$125K - $150K",
+      "company": {
+        "name": "Vertex Innovations",
+        "description": "Vertex Innovations is a dynamic tech company dedicated to driving IT excellence through innovative software development.",
+        "contactEmail": "contact@vertexinnovations.com",
+        "contactPhone": "555-0133"
+      }
+    },
+    {
+      "id": "34",
+      "title": "Backend Architect",
+      "type": "Remote",
+      "location": "Cleveland, OH",
+      "description": "We are in search of a Backend Architect to oversee our server-side architecture and drive the evolution of robust backend systems.",
+      "salary": "$100K - $125K",
+      "company": {
+        "name": "LogicLayer Inc.",
+        "description": "LogicLayer Inc. is a trusted provider of advanced IT solutions, offering comprehensive software and infrastructure services.",
+        "contactEmail": "contact@logiclayerinc.com",
+        "contactPhone": "555-0134"
+      }
+    },
+    {
+      "id": "35",
+      "title": "DevOps Specialist",
+      "type": "Internship",
+      "location": "Columbus, OH",
+      "description": "Seeking a DevOps Specialist to optimize operational processes and enhance deployment pipeline efficiency across our IT projects.",
+      "salary": "$100K - $125K",
+      "company": {
+        "name": "OptiTech Solutions",
+        "description": "OptiTech Solutions is a leading technology firm specializing in optimizing IT processes and delivering innovative digital solutions.",
+        "contactEmail": "contact@optitechsolutions.com",
+        "contactPhone": "555-0135"
+      }
+    },
+    {
+      "id": "36",
+      "title": "Data Engineer",
+      "type": "Full-Time",
+      "location": "Salt Lake City, UT",
+      "description": "We are hiring a Data Engineer to design, build, and maintain robust data pipelines for large-scale processing and analytics.",
+      "salary": "$100K - $125K",
+      "company": {
+        "name": "Digital Nexus",
+        "description": "Digital Nexus is a forward-thinking company at the heart of digital innovation and comprehensive IT services.",
+        "contactEmail": "contact@digitalnexus.com",
+        "contactPhone": "555-0136"
+      }
+    },
+    {
+      "id": "37",
+      "title": "Security Engineer",
+      "type": "Part-Time",
+      "location": "Kansas City, MO",
+      "description": "Join our security team as a Security Engineer to develop and implement measures protecting our IT assets and sensitive data.",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "NexCore Systems",
+        "description": "NexCore Systems is a dynamic IT solutions provider focused on cutting-edge technology and robust digital infrastructure.",
+        "contactEmail": "contact@nexcoresystems.com",
+        "contactPhone": "555-0137"
+      }
+    },
+    {
+      "id": "38",
+      "title": "Cloud Engineer",
+      "type": "Remote",
+      "location": "Cincinnati, OH",
+      "description": "We require a Cloud Engineer to support the design, implementation, and management of our scalable cloud infrastructure.",
+      "salary": "$100K - $125K",
+      "company": {
+        "name": "PrimeCode Labs",
+        "description": "PrimeCode Labs is an innovative software firm dedicated to developing high-quality IT solutions and modern digital products.",
+        "contactEmail": "contact@primecodelabs.com",
+        "contactPhone": "555-0138"
+      }
+    },
+    {
+      "id": "39",
+      "title": "Full Stack Architect",
+      "type": "Contract",
+      "location": "Milwaukee, WI",
+      "description": "Seeking a Full Stack Architect to lead the design of comprehensive IT solutions spanning the entire technology stack.",
+      "salary": "$125K - $150K",
+      "company": {
+        "name": "InfiniTech",
+        "description": "InfiniTech is a pioneering technology company specializing in scalable IT solutions and advanced software engineering.",
+        "contactEmail": "contact@infinitech.com",
+        "contactPhone": "555-0139"
+      }
+    },
+    {
+      "id": "40",
+      "title": "Mobile Solutions Engineer",
+      "type": "Internship",
+      "location": "Indianapolis, IN",
+      "description": "Join our team as a Mobile Solutions Engineer to innovate and develop mobile technologies that drive user engagement.",
+      "salary": "$100K - $125K",
+      "company": {
+        "name": "DataStream Dynamics",
+        "description": "DataStream Dynamics is a leading firm in data analytics and IT consulting, delivering innovative digital solutions.",
+        "contactEmail": "contact@datastreamdynamics.com",
+        "contactPhone": "555-0140"
+      }
+    },
+    {
+      "id": "41",
+      "title": "Automation Engineer",
+      "type": "Full-Time",
+      "location": "Richmond, VA",
+      "description": "We are looking for an Automation Engineer to develop automated testing and deployment solutions that boost efficiency across our IT projects.",
+      "salary": "$80K - $900K",
+      "company": {
+        "name": "PulseTech",
+        "description": "PulseTech is a dynamic technology provider focused on delivering reliable IT services and cutting-edge software solutions.",
+        "contactEmail": "contact@pulsetech.com",
+        "contactPhone": "555-0141"
+      }
+    },
+    {
+      "id": "42",
+      "title": "Digital Transformation Specialist",
+      "type": "Contract",
+      "location": "Charlotte, NC",
+      "description": "Seeking a Digital Transformation Specialist to drive change and implement innovative IT solutions across our organization.",
+      "salary": "$100K - $125K",
+      "company": {
+        "name": "Skyline Systems",
+        "description": "Skyline Systems is a forward-thinking company specializing in modern IT infrastructure and digital transformation services.",
+        "contactEmail": "contact@skylinesystems.com",
+        "contactPhone": "555-0142"
+      }
+    },
+    {
+      "id": "43",
+      "title": "IT Infrastructure Manager",
+      "type": "Remote",
+      "location": "Nashville, TN",
+      "description": "Join our leadership team as an IT Infrastructure Manager to oversee and optimize our critical IT systems and network architecture.",
+      "salary": "$100K - $125K",
+      "company": {
+        "name": "CodeCraft Innovations",
+        "description": "CodeCraft Innovations is an innovative firm dedicated to crafting high-quality IT solutions and software products.",
+        "contactEmail": "contact@codecraftinnovations.com",
+        "contactPhone": "555-0143"
+      }
+    },
+    {
+      "id": "44",
+      "title": "IT Operations Manager",
+      "type": "Internship",
+      "location": "Providence, RI",
+      "description": "We are hiring an IT Operations Manager to manage daily IT operations and ensure continuous, efficient service delivery.",
+      "salary": "$100K - $125K",
+      "company": {
+        "name": "TechBridge Solutions",
+        "description": "TechBridge Solutions is a trusted IT company focused on bridging technology and business through innovative digital solutions.",
+        "contactEmail": "contact@techbridgesolutions.com",
+        "contactPhone": "555-0144"
+      }
+    },
+    {
+      "id": "45",
+      "title": "IT Service Manager",
+      "type": "Full-Time",
+      "location": "Oklahoma City, OK",
+      "description": "Seeking an IT Service Manager to lead our support teams and improve overall service delivery standards across our organization.",
+      "salary": "$80K - $90K",
+      "company": {
+        "name": "Digital Matrix",
+        "description": "Digital Matrix is a pioneering technology firm offering comprehensive IT services and advanced software solutions.",
+        "contactEmail": "contact@digitalmatrix.com",
+        "contactPhone": "555-0145"
+      }
+    },
+    {
+      "id": "46",
+      "title": "Embedded Systems Developer",
+      "type": "Part-Time",
+      "location": "New Orleans, LA",
+      "description": "Join our team as an Embedded Systems Developer to design and develop firmware for next-generation hardware solutions.",
+      "salary": "$100K - $125K",
+      "company": {
+        "name": "CyberLink Technologies",
+        "description": "CyberLink Technologies is a dynamic company specializing in cybersecurity and modern IT infrastructure solutions.",
+        "contactEmail": "contact@cyberlinktechnologies.com",
+        "contactPhone": "555-0146"
+      }
+    },
+    {
+      "id": "47",
+      "title": "Virtualization Engineer",
+      "type": "Contract",
+      "location": "Sacramento, CA",
+      "description": "We require a Virtualization Engineer to implement and manage virtualization technologies, ensuring efficient resource utilization.",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "FutureWave Inc.",
+        "description": "FutureWave Inc. is an innovative tech company at the forefront of digital transformation and IT innovation.",
+        "contactEmail": "contact@futurewaveinc.com",
+        "contactPhone": "555-0147"
+      }
+    },
+    {
+      "id": "48",
+      "title": "Systems Analyst",
+      "type": "Full-Time",
+      "location": "Rochester, NY",
+      "description": "Seeking a Systems Analyst to evaluate, improve and align our IT systems with evolving business requirements.",
+      "salary": "$80K - $90K",
+      "company": {
+        "name": "QuantumByte",
+        "description": "QuantumByte is a cutting-edge IT firm specializing in advanced software solutions and digital innovation.",
+        "contactEmail": "contact@quantumbyte.com",
+        "contactPhone": "555-0148"
+      }
+    },
+    {
+      "id": "49",
+      "title": "Application Support Engineer",
+      "type": "Internship",
+      "location": "Hartford, CT",
+      "description": "Join our support team as an Application Support Engineer to provide technical assistance and troubleshooting for our applications.",
+      "salary": "$60K - $70K",
+      "company": {
+        "name": "SmartSoft Global",
+        "description": "SmartSoft Global is a leading provider of innovative IT services and custom software development solutions.",
+        "contactEmail": "contact@smartsoftglobal.com",
+        "contactPhone": "555-0149"
+      }
+    },
+    {
+      "id": "50",
+      "title": "IT Security Manager",
+      "type": "Full-Time",
+      "location": "Buffalo, NY",
+      "description": "We are in search of an IT Security Manager to lead our cybersecurity initiatives and safeguard our IT infrastructure.",
+      "salary": "$100K - $125K",
+      "company": {
+        "name": "NextWave Technologies",
+        "description": "NextWave Technologies is a forward-thinking company dedicated to delivering next-generation IT solutions and digital services.",
+        "contactEmail": "contact@nextwavetechnologies.com",
+        "contactPhone": "555-0150"
+      }
+    },
+    {
+      "id": "51",
+      "title": "Technical Support Engineer",
+      "type": "Part-Time",
+      "location": "Tampa, FL",
+      "description": "Seeking a Technical Support Engineer to offer expert technical assistance and resolve complex IT issues for our clientele.",
+      "salary": "$50K - $60K",
+      "company": {
+        "name": "UltraTech Systems",
+        "description": "UltraTech Systems is a dynamic technology firm specializing in innovative IT infrastructure and modern software development.",
+        "contactEmail": "contact@ultratechsystems.com",
+        "contactPhone": "555-0151"
+      }
+    },
+    {
+      "id": "52",
+      "title": "Software Development Manager",
+      "type": "Full-Time",
+      "location": "San Antonio, TX",
+      "description": "Join our management team as a Software Development Manager to lead projects and mentor a team of talented engineers.",
+      "salary": "$125K - $150K",
+      "company": {
+        "name": "DigitalEdge Inc.",
+        "description": "DigitalEdge Inc. is a pioneering IT company focused on delivering cutting-edge digital solutions and advanced software products.",
+        "contactEmail": "contact@digitaledgeinc.com",
+        "contactPhone": "555-0152"
+      }
+    },
+    {
+      "id": "53",
+      "title": "IT Integration Specialist",
+      "type": "Remote",
+      "location": "Virginia Beach, VA",
+      "description": "We require an IT Integration Specialist to facilitate the seamless integration of new technologies into our existing systems.",
+      "salary": "$100K - $125K",
+      "company": {
+        "name": "CoreFusion",
+        "description": "CoreFusion is a trusted provider of comprehensive IT solutions, blending innovative software development with strategic digital transformation.",
+        "contactEmail": "contact@corefusion.com",
+        "contactPhone": "555-0153"
+      }
+    },
+    {
+      "id": "54",
+      "title": "AI Research Scientist",
+      "type": "Part-Time",
+      "location": "Columbus, GA",
+      "description": "Seeking an AI Research Scientist to push the boundaries of artificial intelligence and develop innovative AI solutions for real-world challenges.",
+      "salary": "$150K - $175K",
+      "company": {
+        "name": "TechEdge Innovations",
+        "description": "TechEdge Innovations is a dynamic tech firm specializing in advanced IT solutions and innovative digital products.",
+        "contactEmail": "contact@techedgeinnovations.com",
+        "contactPhone": "555-0154"
+      }
+    },
+    {
+      "id": "55",
+      "title": "Robotics Engineer",
+      "type": "Remote",
+      "location": "Grand Rapids, MI",
+      "description": "Join our innovative team as a Robotics Engineer to design, develop, and implement robotic systems for industrial applications.",
+      "salary": "$100K - $125K",
+      "company": {
+        "name": "SynergySoft",
+        "description": "SynergySoft is a forward-thinking company dedicated to integrating cutting-edge IT solutions with seamless digital experiences.",
+        "contactEmail": "contact@synergysoft.com",
+        "contactPhone": "555-0155"
+      }
+    },
+    {
+      "id": "56",
+      "title": "IT Strategy Consultant",
+      "type": "Full-Time",
+      "location": "Remote",
+      "description": "We are looking for an IT Strategy Consultant to provide insights and guidance on leveraging technology for sustainable business growth.",
+      "salary": "$125K - $150K",
+      "company": {
+        "name": "Innovative IT Solutions",
+        "description": "Innovative IT Solutions is a pioneering firm specializing in comprehensive IT services and advanced software development.",
+        "contactEmail": "contact@innovativeitsolutions.com",
+        "contactPhone": "555-0156"
+      }
     }
   ]
 }
