@@ -1,19 +1,20 @@
 import type { Request } from '@tinyhttp/app';
 import type { DatabaseItem, QueryParams } from '../types.js';
 
-interface ProcessedCollection {
-  data: DatabaseItem[];
-  totalCount: number;
+interface PaginatedData {
+  data: DatabaseItem[]
+  totalCount: number
+  page: number
+  totalPages: number
 }
 
-export const processCollection = ( collection: DatabaseItem[], req: Request ): ProcessedCollection => {
+export const processCollection = ( collection: DatabaseItem[], req: Request ): PaginatedData => {
   const { _page, _limit, _sort, _order, _per_page, ...filters } = req.query as QueryParams;
 
   let results: DatabaseItem[] = [ ...collection ];
 
   Object.keys( filters ).forEach( ( key ) => {
     results = results.filter( ( item ) => {
-      // Obsługa filtrów z _like (częściowe dopasowanie)
       if ( key.endsWith( '_like' ) ) {
         const actualKey = key.replace( '_like', '' );
         const filterValue = filters[ key ];
@@ -21,7 +22,7 @@ export const processCollection = ( collection: DatabaseItem[], req: Request ): P
           ? String( item[ actualKey ] ).toLowerCase().includes( String( filterValue ).toLowerCase() )
           : true;
       }
-      // Filtry dokładne
+
       const filterValue = filters[ key ];
       return filterValue ? String( item[ key ] ) === String( filterValue ) : true;
     } );
@@ -53,6 +54,8 @@ export const processCollection = ( collection: DatabaseItem[], req: Request ): P
   return {
     data: results.slice( startIndex, endIndex ),
     totalCount,
+    page,
+    totalPages: Math.ceil(totalCount / limit)
   };
 };
 

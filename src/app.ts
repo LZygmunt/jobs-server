@@ -18,9 +18,8 @@ let database: Database = loadDataFromJson() ?? {};
 
 Object.keys(database).forEach((collection) => {
   app.get(`/${collection}`, (req: Request, res: Response) => {
-    const { data, totalCount } = processCollection(database[collection], req)
-    res.setHeader('X-Total-Count', totalCount)
-    res.json(data)
+    const paginatedData = processCollection(database[collection], req)
+    res.json( paginatedData)
   })
 
   app.get(`/${collection}/:id`, (req: Request, res: Response) => {
